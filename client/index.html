@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body class="container">
+    <section>
+      <button id="complimentButton">Get a compliment</button>
+      <button id="fortuneButton">Get a fortune</button>
+    </section>
+    
+    <form>
+      <h3>Show Me an Inspirational Quote In...</h3>
+        <label for="quotes"></label>
+          <select name="quotes" id="quotes">
+            <option id="placeholder" value="placeholder">Select Language:</option> 
+            <option id="English" value="English">English</option> 
+            <option id="Spanish" value="Spanish">Español</option> 
+            <option id="French" value="French">Français</option> 
+            <option id="German" value="German">Deutsch</option> 
+            <option id="Portuguese" value="Portuguese">Português</option> 
+            <option id="Italian" value="Italian">Italiano</option> 
+            <option id="Russian" value="Russian">Русский</option> 
+            <option id="Japanese" value="Japanese">日本</option> 
+            <option id="Chinese" value="Chinese">中国人</option> 
+            <option id="Korean" value="Korean">한국인</option> 
+          </select>
+    </form>
+    <section id="painting-section">
+      
+      <form id="painting-form">
+        <h3>Show Me Some Paintings!</h3>
+          <input
+            type="text"
+            id="name"
+            placeholder="What's the painting called?"/>
+          <input
+            type="text"
+            id="painter"
+            placeholder="Who's the painter?"/>
+          <input
+            type="text"
+            id="painterQuote"
+            placeholder="What a quotes from the painter?"/>
+          <input
+            type="text"
+            id="cost"
+            placeholder="How much does it cost?"/>
+          <input
+            type="text"
+            id="paintingImg"
+            placeholder="Place the painting here"/>
+          <button id="painting-button">Add painting</button>
+      </form>
+
+      <section id="painting-container"></section>
+
+      <form>
+        <h3>How are you Feeling today?</h3>
+          <label for="faces"></label>
+            <select name="faces" id="faces">
+              <option value="placeholder">Select Emotion:</option> 
+              <option value="Happy">Happy</option> 
+              <option value="Sad">Sad</option> 
+              <option value="Angry">Angry</option> 
+              <option value="Crazy">Crazy</option> 
+              <option value="Sick">Sick</option> 
+              <option value="Tired">Tired</option> 
+              <option value="Confused">Confused</option> 
+              <option value="Neutral">Neutral</option> 
+              <option value="Sleepy">Sleepy</option> 
+              <option value="Drunk">Drunk</option> 
+            </select>
+      </form>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

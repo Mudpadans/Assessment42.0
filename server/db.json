@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Mona Lisa",
+        "painter": "Leornardo Da Vinci",
+        "painterQuote":"Learning is the only thing the mind never exhausts, never fears, and never regrets.",
+        "cost": 50000,
+        "paintingImg": "https://www.italian-renaissance-art.com/images/Leonardo-Mona-Lisa.jpg"
+    },
+    {
+        "id": 2,
+        "name": "The Last Supper",
+        "painter": "Leornardo Da Vinci" ,
+        "painterQuote":"The greatest deception men suffer is from their own opinions.",
+        "cost": 45000,
+        "paintingImg": "https://i.pinimg.com/originals/06/1c/9d/061c9d283a62ae7cea74dfe5fec8f641.jpg"
+    },
+    {
+        "id": 3,
+        "name": "The Persistence of Memory",
+        "painter": "Salvador Dali",
+        "painterQuote":"Intelligence without ambition is a bird without wings.",
+        "cost": 30000,
+        "paintingImg": "https://2.bp.blogspot.com/-iYbzb6tVT3E/T-Kpf__ubAI/AAAAAAAADzo/LeH-L9JTI8A/s1600/SalvadorDali-ThePersistenceOfMemory.jpg"
+    },
+    {
+        "id": 4,
+        "name": "The Scream",
+        "painter": "Edvard Munch",
+        "painterQuote":"All art, literature, and music must be born in your heart's blood. Art is your heart's blood.",
+        "cost": 40000,
+        "paintingImg": "https://www.paintingmania.com/arts/edvard-munch/large/scream-1893-16_2514.jpg"
+    },
+    {
+        "id": 5,
+        "name": "The Starry Night",
+        "painter": "Vincent Van Gogh",
+        "painterQuote":"If you hear a voice within you say 'you cannot paint,' then by all means paint, and that voice will be silenced.",
+        "cost": 35000,
+        "paintingImg": "https://www.paintingmania.com/arts/vincent-van-gogh/large/starry-night-6_2843.jpg"
+    }
+]
